@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 4px;
+  }
+  
+  h1 {
+    background-color: #333;
+    color: white;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  form {
+    margin: 12px;
+  }
+  
+  form label {
+    display: inline-block;
+    width: 80px;
+  }
+  
+  form input[type="submit"] {
+    margin-left: 80px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    margin: 20px;
+    width: calc(100% - 40px);
+  }
+  
+  table th,
+  table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  table th {
+    background-color: #eee;
+  }
+  
+  /* add some additional margin and padding */
+  form input,
+  form select {
+      margin-bottom:10px
+  }
+  
+  table td {
+      padding:15px
+  }
+  
+  /* add some additional margin to the "Add Transaction" form and the "Current Balance" display */
+  form#add-transaction-form,
+  h2#balance {
+      margin-bottom:30px
+  }
+  
+  /* add some additional styling to make the page more visually appealing */
+  body {
+      background-color:#f4f4f4
+  }
+  h1 {
+      text-align:center
+  }
+  form input[type="submit"] {
+      background-color:#333;
+      color:white;
+      border:none;
+      padding:10px 20px
+  }
+  form input[type="submit"]:hover{
+      background-color:#555
+  }
+  table tr:nth-child(even){
+      background-color:#f4f4f4
+  }
+  
+  /* add some additional styling to improve the visual alignment of the page */
+  form label,
+  form input,
+  form select,
+  form input[type="submit"]{
+      display:block
+  }
+  
+  /* use flexbox to improve the layout of the page */
+  form {
+      display:flex;
+      flex-wrap:wrap
+  }
+  form label,
+  form input,
+  form select{
+      flex-basis:calc(50% - 40px)
+  }
+  form input[type="submit"]{
+      flex-basis:100%;
+      margin-left:0
+  }
+  
